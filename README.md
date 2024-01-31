@@ -30,18 +30,23 @@ A ---> B[Variational autoencoders]
 
 ## Large language models (LLMs)
 
-Transformerers are used to train LLMs.
+[Transformer models](https://arxiv.org/abs/1706.03762) (the hot new thing!) are mainly used to train LLMs. 
 
 ##### General purpose LLMs:
 - [ChatGPT](https://chat.openai.com/])
 - [Microsoft Copilot](https://copilot.microsoft.com/)
+- [Llama 2](https://ai.meta.com/llama/) - open source
 
 ##### Customized LLMs:
-- [GPTs](https://chat.openai.com/gpts)
+- [GPTs](https://chat.openai.com/gpts) - storefront for customized ChatGPTs
 - [Wolfram GPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) - ChatGPT customized for mathematics and data visualization
+- [GitHub Copilot](https://github.com/features/copilot)
 - [NovelAI](https://novelai.net/) - storytelling
 - [Friends & Fables](https://www.fables.gg/) - AI game master for tabletop RPGs
 - [AI Dungeon](https://play.aidungeon.com/) - infinitely generated text adventure
+
+##### LLM (and other generative AI) communities
+- [Hugging Face](https://huggingface.co/)
 
 
 ## Diffusion models
@@ -96,7 +101,7 @@ flowchart LR
 ![](images/firefox_peMQeWhGD6.png)
 *Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.*
 
-![](images/Pasted image 20240129210020.png)
+![](images/20240129210020.png)
 *Supplementary regression analysis Python code provided by Data Analyst.*
 
 
@@ -114,10 +119,10 @@ flowchart LR
 
 ## Hallucination
 
-![](images/Pasted image 20240129224007.png)
+![](images/20240129224007.png)
 *DALL·E is bad at generating text.*
 
-![](images/Pasted image 20240129214325.png)
+![](images/20240129214325.png)
 *Copilot's attempt at random number generation.*
 
 
