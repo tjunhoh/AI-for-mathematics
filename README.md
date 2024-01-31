@@ -93,8 +93,7 @@ flowchart LR
 
 ## Data analysis
 
->[!figure] ![[images/firefox_peMQeWhGD6.png | center]]
->Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.
+![Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.](images/firefox_peMQeWhGD6.png | center)
 
 > [!figure] ![[images/Pasted image 20240129210020.png | center ]]
 > Supplementary regression analysis Python code provided by Data Analyst.
