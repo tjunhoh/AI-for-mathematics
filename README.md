@@ -98,13 +98,11 @@ flowchart LR
 
 ## Data analysis
 
+*Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.*
 ![](images/firefox_peMQeWhGD6.png)
 
-*Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.*
-
-![](images/20240129210020.png)
-
 *Supplementary regression analysis Python code provided by Data Analyst.*
+![](images/20240129210020.png)
 
 
 ## Prompt engineering
@@ -115,19 +113,17 @@ flowchart LR
 
 ## Identifying AI-generated content
 
-![](images/sanic.jpg)
 *Misrepresenting an AI-generated image.*
+![](images/sanic.jpg)
 
 
 ## Hallucination
 
+*DALL·E is bad at generating text.*
 ![](images/20240129224007.png)
 
-*DALL·E is bad at generating text.*
-
-![](images/20240129214325.png)
-
 *Copilot's attempt at random number generation.*
+![](images/20240129214325.png)
 
 
 ## Ethics
