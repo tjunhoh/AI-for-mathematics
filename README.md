@@ -33,20 +33,21 @@ A ---> B[Variational autoencoders]
 [Transformer models](https://arxiv.org/abs/1706.03762) (the hot new thing!) are mainly used to train LLMs. 
 
 ##### General purpose LLMs:
-- [ChatGPT](https://chat.openai.com/])
-- [Microsoft Copilot](https://copilot.microsoft.com/)
-- [Llama 2](https://ai.meta.com/llama/) - open source
+- [ChatGPT](https://chat.openai.com/]) - OpenAI's LLM
+- [Microsoft Copilot](https://copilot.microsoft.com/) - AI companion for Microsoft 365 apps
+- [Llama 2](https://ai.meta.com/llama/) - open source LLM
 
 ##### Customized LLMs:
 - [GPTs](https://chat.openai.com/gpts) - storefront for customized ChatGPTs
 - [Wolfram GPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) - ChatGPT customized for mathematics and data visualization
-- [GitHub Copilot](https://github.com/features/copilot)
+- [GitHub Copilot](https://github.com/features/copilot) - AI-based code suggestions
 - [NovelAI](https://novelai.net/) - storytelling
 - [Friends & Fables](https://www.fables.gg/) - AI game master for tabletop RPGs
 - [AI Dungeon](https://play.aidungeon.com/) - infinitely generated text adventure
 
 ##### LLM (and other generative AI) communities
 - [Hugging Face](https://huggingface.co/)
+- [There's An AI For That](https://theresanaiforthat.com/)
 
 
 ## Diffusion models
@@ -116,6 +117,9 @@ flowchart LR
 *Misrepresenting an AI-generated image.*
 ![](images/sanic.jpg)
 
+- [How do Turnitin’s AI writing detection capabilities work?](https://www.turnitin.com/products/features/ai-writing-detection/)
+- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier
+
 
 ## Hallucination
 
@@ -125,10 +129,31 @@ flowchart LR
 *Copilot's attempt at random number generation.*
 ![](images/20240129214325.png)
 
+- [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard/) - Public LLM hallucination leaderboard using Vectara's Hallucination Evaluation Model.
+
+
+## Academic concerns
+
+- [ChatGPT and Assessments in the Mathematical Sciences](http://talmo.uk/blog/feb2023/chatgpt.html)
+- [ChatGPT in Computing Education](https://www.mmu.ac.uk/sites/default/files/2023-12/ChatGPTComputingEducationWhitePaper.pdf)
+- [ChatGPT in education: global reactions to AI innovations](https://www.nature.com/articles/s41598-023-42227-6)
+- [ChatGPT in education: Methods, potentials, and limitations](https://www.sciencedirect.com/science/article/pii/S2949882123000221)
+
+
+##### Mitigation strategies
+
+- *TBA*
+
+Questions we have to ask ourselves as mathematics educators:
+
+- What should we be teaching to students?
+- What should students be learning?
+
 
 ## Ethics
 
 - [AI Content on Steam](https://steamcommunity.com/groups/steamworks/announcements/detail/3862463747997849619)
+- [Toxicity in ChatGPT: Analyzing Persona-assigned Language Models](https://arxiv.org/abs/2304.05335)
 
 
 ## Further reading

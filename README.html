@@ -1,0 +1,210 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\ad8242\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      <script type="text/javascript" src="file:///c:\Users\ad8242\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h2 id="at-a-glance">At a glance </h2>
+<p>Examples of media that generative AI is capable of producing:</p>
+<div class="mermaid">flowchart TD
+A[AI-generated content]
+A --&gt; B[Text]
+A --&gt; C[Audio]
+A --&gt; F[Digital assets]
+A --&gt; D[Images]
+A --&gt; E[Code]
+
+F --&gt; H[3D models]
+F --&gt; I[Protein folding]
+F --&gt; J[Videos]
+</div><p>Some key deep learning machinery :</p>
+<div class="mermaid">flowchart TD
+A[Generative AI technology]
+A --&gt; D[Transformers]
+A --&gt; E[Diffusion models]
+A --&gt; F[Convolutional neural networks]
+A ---&gt; C[Generative adversarial networks]
+A ---&gt; B[Variational autoencoders]
+</div><h2 id="large-language-models-llms">Large language models (LLMs) </h2>
+<p><a href="https://arxiv.org/abs/1706.03762">Transformer models</a> (the hot new thing!) are mainly used to train LLMs.</p>
+<h5 id="general-purpose-llms">General purpose LLMs: </h5>
+<ul>
+<li><a href="https://chat.openai.com/%5D">ChatGPT</a> - OpenAI's LLM</li>
+<li><a href="https://copilot.microsoft.com/">Microsoft Copilot</a> - AI companion for Microsoft 365 apps</li>
+<li><a href="https://ai.meta.com/llama/">Llama 2</a> - open source LLM</li>
+</ul>
+<h5 id="customized-llms">Customized LLMs: </h5>
+<ul>
+<li><a href="https://chat.openai.com/gpts">GPTs</a> - storefront for customized ChatGPTs</li>
+<li><a href="https://www.wolfram.com/wolfram-plugin-chatgpt/">Wolfram GPT</a> - ChatGPT customized for mathematics and data visualization</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a> - AI-based code suggestions</li>
+<li><a href="https://novelai.net/">NovelAI</a> - storytelling</li>
+<li><a href="https://www.fables.gg/">Friends &amp; Fables</a> - AI game master for tabletop RPGs</li>
+<li><a href="https://play.aidungeon.com/">AI Dungeon</a> - infinitely generated text adventure</li>
+</ul>
+<h5 id="llm-and-other-generative-ai-communities">LLM (and other generative AI) communities </h5>
+<ul>
+<li><a href="https://huggingface.co/">Hugging Face</a></li>
+</ul>
+<h2 id="diffusion-models">Diffusion models </h2>
+<p>Diffusion models can be used for text-to-video and text-to-image generation.</p>
+<h5 id="text-to-video">Text-to-video: </h5>
+<ul>
+<li><a href="https://lumiere-video.github.io/">Lumiere</a></li>
+</ul>
+<h5 id="text-to-image">Text-to-image: </h5>
+<ul>
+<li><a href="https://stability.ai/stable-image">Stable Diffusion</a></li>
+<li><a href="https://labs.openai.com/">DALL·E</a> - also available as a custom version ChatGPT</li>
+<li><a href="https://www.midjourney.com/">Midjourney</a></li>
+</ul>
+<h2 id="deep-neural-networks">Deep neural networks </h2>
+<p>Convolutional neural networks (CNNs), generative adversarial networks (GANs), and variational autoencoders (VAEs).</p>
+<h5 id="translation">Translation: </h5>
+<ul>
+<li><a href="https://www.deepl.com/translator">DeepL</a></li>
+</ul>
+<h5 id="image-upscaling">Image upscaling: </h5>
+<ul>
+<li><a href="https://www.upscale.media/">Upscale.media</a></li>
+</ul>
+<h5 id="video-upscaling">Video upscaling: </h5>
+<ul>
+<li><a href="https://github.com/nagadomi/waifu2x">waifu2x</a></li>
+</ul>
+<h5 id="audio-synthesis">Audio synthesis: </h5>
+<ul>
+<li><a href="https://elevenlabs.io/">||ElevenLabs</a></li>
+</ul>
+<h5 id="video-generation">Video generation: </h5>
+<ul>
+<li><a href="https://www.d-id.com/creative-reality-studio/">D-ID</a></li>
+</ul>
+<h2 id="workflow">Workflow </h2>
+<p><a href="https://www.youtube.com/watch?v=iE39q-IKOzA">Harry Potter by Balenciaga</a><br>
+Example workflow where AI tools are used at every step:</p>
+<div class="mermaid">flowchart LR
+ Prompts --&gt; Images --&gt; Upscaling --&gt; Video
+ 
+ Prompts --&gt; Audio --&gt; Video
+ 
+</div><h2 id="data-analysis">Data analysis </h2>
+<p><em>Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.</em><br>
+<img src="images/firefox_peMQeWhGD6.png" alt=""></p>
+<p><em>Supplementary regression analysis Python code provided by Data Analyst.</em><br>
+<img src="images/20240129210020.png" alt=""></p>
+<h2 id="prompt-engineering">Prompt engineering </h2>
+<ul>
+<li><a href="https://dallery.gallery/the-dalle-2-prompt-book/">The DALL·E 2 Prompt Book</a></li>
+<li><a href="https://lunarmimi.net/ref-vault/">AI Prompt Vault</a></li>
+</ul>
+<h2 id="identifying-ai-generated-content">Identifying AI-generated content </h2>
+<p><em>Misrepresenting an AI-generated image.</em><br>
+<img src="images/sanic.jpg" alt=""></p>
+<ul>
+<li><a href="https://www.turnitin.com/products/features/ai-writing-detection/">How do Turnitin’s AI writing detection capabilities work?</a></li>
+<li><a href="https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text">New AI classifier for indicating AI-written text</a> - OpenAI's failed attempt at an AI classifier</li>
+</ul>
+<h2 id="hallucination">Hallucination </h2>
+<p><em>DALL·E is bad at generating text.</em><br>
+<img src="images/20240129224007.png" alt=""></p>
+<p><em>Copilot's attempt at random number generation.</em><br>
+<img src="images/20240129214325.png" alt=""></p>
+<ul>
+<li><a href="https://github.com/vectara/hallucination-leaderboard/">Hallucination Leaderboard</a> - Public LLM hallucination leaderboard using Vectara's Hallucination Evaluation Model.</li>
+</ul>
+<h2 id="academic-concerns">Academic concerns </h2>
+<ul>
+<li><a href="http://talmo.uk/blog/feb2023/chatgpt.html">ChatGPT and Assessments in the Mathematical Sciences</a></li>
+<li><a href="https://www.mmu.ac.uk/sites/default/files/2023-12/ChatGPTComputingEducationWhitePaper.pdf">ChatGPT in Computing Education</a></li>
+<li><a href="https://www.nature.com/articles/s41598-023-42227-6">ChatGPT in education: global reactions to AI innovations</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S2949882123000221">ChatGPT in education: Methods, potentials, and limitations</a></li>
+</ul>
+<h5 id="mitigation-strategies">Mitigation strategies </h5>
+<ul>
+<li><em>TBA</em></li>
+</ul>
+<p>Questions we have to ask ourselves as mathematics educators:</p>
+<ul>
+<li>What should we be teaching to students?</li>
+<li>What should students be learning?</li>
+</ul>
+<h2 id="ethics">Ethics </h2>
+<ul>
+<li><a href="https://steamcommunity.com/groups/steamworks/announcements/detail/3862463747997849619">AI Content on Steam</a></li>
+<li><a href="https://arxiv.org/abs/2304.05335">Toxicity in ChatGPT: Analyzing Persona-assigned Language Models</a></li>
+</ul>
+<h2 id="further-reading">Further reading </h2>
+<p>Repositories of notes on generative AI:</p>
+<ul>
+<li><a href="https://github.com/swyxio/ai-notes/blob/main/README.md">AI Notes</a></li>
+<li><a href="https://github.com/Maks-s/sd-akashic">Stable Diffusion Akashic Records</a></li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidetransitionend', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>
