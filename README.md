@@ -1,7 +1,24 @@
 
-## At a glance
+# AI and mathematics education
 
-Examples of media that generative AI is capable of producing:
+*N.B. This is a work-in-progress filled with broad strokes of non-pedancy.*
+
+This document is meant to give a rough overview of generative AI in relation to mathematics education, and to highlight some questions (please solve these as your homework) we might want to ask ourselves as educators:
+
+1. What is generative AI capable of?
+1. What impact does generative AI have on mathematics education?
+1. How can we integrate AI into our teaching and assessments?
+1. How can students integrate AI into their learning journey?
+1. How do we tackle AI-driven academic misconduct?
+1. How is this different from essay mills, plagiarism, unauthorised use of technology, collaboration, impersonation, etc.?
+1. No, really, how is this any different?
+
+
+## Generative AI at a glance
+
+Simply put, generative AI refers to artificial intelligence systems that are capable of generating *new* content based on existing training data.
+
+Here are some examples of media that generative AI is capable of producing:
 
 ```mermaid
 flowchart TD
@@ -17,10 +34,11 @@ F --> I[Protein folding]
 F --> J[Videos]
 ```
 
-Some key deep learning machinery :
+
+AI advancements were brought about by key deep learning machinery:
 ```mermaid
 flowchart TD
-A[Generative AI technology]
+A[Pivotal AI technology]
 A --> D[Transformers]
 A --> E[Diffusion models]
 A --> F[Convolutional neural networks]
@@ -28,76 +46,78 @@ A ---> C[Generative adversarial networks]
 A ---> B[Variational autoencoders]
 ```
 
-## Large language models (LLMs)
+What follows are examples of popular generative AI tools.
 
-[Transformer models](https://arxiv.org/abs/1706.03762) (the hot new thing!) are mainly used to train LLMs. 
+### Large language models (LLMs)
+
+[Transformer models](https://arxiv.org/abs/1706.03762) (the hot new thing!) are mainly used to train LLMs; these can be thought of as  sophisticated chatbots.
 
 ##### General purpose LLMs:
-- [ChatGPT](https://chat.openai.com/]) - OpenAI's LLM
-- [Microsoft Copilot](https://copilot.microsoft.com/) - AI companion for Microsoft 365 apps
-- [Llama 2](https://ai.meta.com/llama/) - open source LLM
+- [ChatGPT](https://chat.openai.com/]) - OpenAI's LLM.
+- [Microsoft Copilot](https://copilot.microsoft.com/) - AI companion for Microsoft 365 apps.
+- [Llama 2](https://ai.meta.com/llama/) - open source LLM.
 
 ##### Customized LLMs:
-- [GPTs](https://chat.openai.com/gpts) - storefront for customized ChatGPTs
-- [Wolfram GPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) - ChatGPT customized for mathematics and data visualization
-- [GitHub Copilot](https://github.com/features/copilot) - AI-based code suggestions
-- [NovelAI](https://novelai.net/) - storytelling
-- [Friends & Fables](https://www.fables.gg/) - AI game master for tabletop RPGs
-- [AI Dungeon](https://play.aidungeon.com/) - infinitely generated text adventure
+- [GPTs](https://chat.openai.com/gpts) - storefront for customized ChatGPTs.
+- [Wolfram GPT](https://www.wolfram.com/wolfram-plugin-chatgpt/) - ChatGPT customized for mathematics and data visualization.
+- [GitHub Copilot](https://github.com/features/copilot) - AI-based code suggestions.
+- [NovelAI](https://novelai.net/) - storytelling.
+- [Friends & Fables](https://www.fables.gg/) - AI game master for tabletop RPGs.
+- [AI Dungeon](https://play.aidungeon.com/) - infinitely generated text adventure.
 
-##### LLM (and other generative AI) communities
-- [Hugging Face](https://huggingface.co/)
-- [There's An AI For That](https://theresanaiforthat.com/)
+##### LLM (and other AI) communities and providers
+- [Hugging Face](https://huggingface.co/) - general machine learning community.
+- [There's An AI For That](https://theresanaiforthat.com/) - find an AI tool that suits your needs.
+- [NVIDIA](https://www.nvidia.com/en-gb/ai-data-science/) - AI infrastructure.
+- [AMD](https://www.amd.com/en/solutions/ai.html) - AI infrastructure.
 
 
-## Diffusion models
+### Diffusion models
 
-Diffusion models can be used for text-to-video and text-to-image generation.
+Diffusion models can be used for text-to-video and text-to-image generation; you may have heard of them in the context of deepfakes and art generators.
 
 ##### Text-to-video:
-- [Lumiere](https://lumiere-video.github.io/)
+- [Lumiere](https://lumiere-video.github.io/) - video synthesis.
+- [Synthesia](https://www.synthesia.io/) - AI avatars.
 
 ##### Text-to-image:
-- [Stable Diffusion](https://stability.ai/stable-image)
-- [DALL·E](https://labs.openai.com/) - also available as a custom version ChatGPT
+- [Stable Diffusion](https://stability.ai/stable-image) - open source diffusion models.
+- [DALL·E](https://labs.openai.com/) - ChatGPT customized for image generation.
 - [Midjourney](https://www.midjourney.com/)
 
 
-## Deep neural networks 
+### Deep neural networks 
 
-Convolutional neural networks (CNNs), generative adversarial networks (GANs), and variational autoencoders (VAEs).
+Convolutional neural networks (CNNs), generative adversarial networks (GANs), and variational autoencoders (VAEs) are deep learning models that can be used to construct generative AI tools.
 
-##### Translation:
-- [DeepL](https://www.deepl.com/translator)
-
-##### Image upscaling:
-- [Upscale.media](https://www.upscale.media/)
-
-##### Video upscaling:
-- [waifu2x](https://github.com/nagadomi/waifu2x)
-
-##### Audio synthesis:
-- [||ElevenLabs](https://elevenlabs.io/)
-
-##### Video generation:
-- [D-ID](https://www.d-id.com/creative-reality-studio/)
+- [DeepL](https://www.deepl.com/translator) - language translation.
+- [Upscale.media](https://www.upscale.media/) - image upscaling.
+- [waifu2x](https://github.com/nagadomi/waifu2x) - video upscaling.
+- [D-ID](https://www.d-id.com/creative-reality-studio/) - video synthesis.
+- [||ElevenLabs](https://elevenlabs.io/) - audio synthesis.
+- [NVIDIA DLSS](https://www.nvidia.com/en-gb/geforce/technologies/dlss/) - Frame generation, upscaling, and noise removal in video games.
+- [Mantella](https://www.nexusmods.com/skyrimspecialedition/mods/98631) - AI-powered NPC dialogue in Skyrim.
 
 
-## Workflow
+### AI-integrated workflows
 
-[Harry Potter by Balenciaga](https://www.youtube.com/watch?v=iE39q-IKOzA)
-Example workflow where AI tools are used at every step:
+- [AI-powered workflows for math teaching and research](https://lpetrov.cc/AI-math/) - how a mathematician integrates AI tools into their workflow.
+- [Harry Potter by Balenciaga](https://www.youtube.com/watch?v=iE39q-IKOzA) - Harry Potter characters re-imagined as Balenciaga models.
+
+*Harry Potter by Balenciaga workflow where AI tools can and were used at every step.*
 
 ```mermaid
 flowchart LR
  Prompts --> Images --> Upscaling --> Video
  
  Prompts --> Audio --> Video
- 
 ```
 
 
-## Data analysis
+
+## Capability
+
+#### Data analysis
 
 *Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.*
 ![](images/firefox_peMQeWhGD6.png)
@@ -105,11 +125,22 @@ flowchart LR
 *Supplementary regression analysis Python code provided by Data Analyst.*
 ![](images/20240129210020.png)
 
+#### Problem solving
+*Solving a homework question (6024CEM Optimisation, Problem Set 7).*
+![](images/firefox_dvFwnu3JSv.png)
+
+#### OCR and LaTeX generation
+*Converting handwriting (6024CEM Optimisation, Problem Set 7 solutions) to LaTeX code.*
+![](images/firefox_UKJO2yzVox.png)
+
 
 ## Prompt engineering
 
+> Prompt engineering is creating inputs for AI to get better outputs. It's important for accurate, efficient, and ethical AI responses. — *ChatGPT 4*
+
 - [The DALL·E 2 Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book/)
 - [AI Prompt Vault](https://lunarmimi.net/ref-vault/)
+- [MathPrompter: Mathematical Reasoning using Large Language Models](https://arxiv.org/abs/2303.05398)
 
 
 ## Identifying AI-generated content
@@ -118,10 +149,14 @@ flowchart LR
 ![](images/sanic.jpg)
 
 - [How do Turnitin’s AI writing detection capabilities work?](https://www.turnitin.com/products/features/ai-writing-detection/)
-- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier
+- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier.
 
 
 ## Hallucination
+
+Generative AI can be wrong, and very confidently so!
+
+- [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard/) - Public LLM hallucination leaderboard using Vectara's Hallucination Evaluation Model.
 
 *DALL·E is bad at generating text.*
 ![](images/20240129224007.png)
@@ -129,7 +164,7 @@ flowchart LR
 *Copilot's attempt at random number generation.*
 ![](images/20240129214325.png)
 
-- [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard/) - Public LLM hallucination leaderboard using Vectara's Hallucination Evaluation Model.
+
 
 
 ## Academic concerns
@@ -139,15 +174,34 @@ flowchart LR
 - [ChatGPT in education: global reactions to AI innovations](https://www.nature.com/articles/s41598-023-42227-6)
 - [ChatGPT in education: Methods, potentials, and limitations](https://www.sciencedirect.com/science/article/pii/S2949882123000221)
 
+> The use of AI in higher education, specifically in mathematics, has been evolving and expanding, offering various innovative approaches to teaching, learning, and research. Here's a rundown of some of the key uses and benefits:
+> 
+> 1. **Personalized Learning**: AI can tailor the educational experience to individual students' needs. It can assess each student's current understanding, learning pace, and preferred learning style. Based on this data, AI can provide personalized resources, recommend specific topics for revision, or adjust the difficulty level of problems.
+> 
+> 2. **Automated Grading and Feedback**: AI systems can grade assignments and provide instant, personalized feedback. This is particularly useful in large classes. For complex mathematical problems, AI can not only check the final answer but also evaluate the reasoning and steps taken to reach that answer, offering constructive feedback.
+> 
+> 3. **Interactive Tutorials and Problem Solving**: AI-driven platforms can offer interactive tutorials, where students engage with AI tutors that respond to their inputs. These systems can guide students through problem-solving processes, offering hints or suggestions and explaining concepts when students struggle.
+> 
+> 4. **Data-Driven Insights for Instructors**: AI can analyze data on students' performance and learning behaviors, offering insights to instructors about common difficulties or misconceptions. This information can guide instructors to adjust their teaching methods or to address specific topics more thoroughly.
+> 
+> 5. **Virtual Labs and Simulations**: In mathematics, certain concepts can be abstract and challenging to visualize. AI can power virtual labs and simulations that offer visual and interactive representations of complex mathematical theories or problems, enhancing understanding and engagement.
+> 
+> 6. **Enhancement of Research**: AI can assist in mathematical research by processing large datasets, identifying patterns, and even suggesting new avenues of research. Machine learning models and algorithms can help in solving complex mathematical problems, sometimes even discovering proofs or solutions that were not previously apparent.
+> 
+> 7. **Accessibility**: AI can make learning more accessible. For instance, voice recognition and AI-driven assistants can help students with disabilities engage with mathematical content more effectively.
+> 
+> 8. **Combatting Academic Dishonesty**: AI systems can be used to monitor and detect instances of academic dishonesty, ensuring the integrity of the academic process.
+> 
+> While the integration of AI in mathematics higher education offers numerous benefits, it's also accompanied by challenges such as ensuring the quality and fairness of AI systems, protecting student privacy, and maintaining a balance between technological and human elements in education. As AI technology continues to evolve, its role in mathematics and higher education at large is expected to grow, offering new opportunities for enhancing teaching, learning, and research.
+> 
+> — *ChatGPT 4*
 
-##### Mitigation strategies
+
+## Mitigation strategies
 
 - *TBA*
 
-Questions we have to ask ourselves as mathematics educators:
 
-- What should we be teaching to students?
-- What should students be learning?
 
 
 ## Ethics
