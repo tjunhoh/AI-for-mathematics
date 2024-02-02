@@ -167,12 +167,7 @@ Generative AI can be wrong, and very confidently so!
 
 
 
-## Academic concerns
-
-- [ChatGPT and Assessments in the Mathematical Sciences](http://talmo.uk/blog/feb2023/chatgpt.html)
-- [ChatGPT in Computing Education](https://www.mmu.ac.uk/sites/default/files/2023-12/ChatGPTComputingEducationWhitePaper.pdf)
-- [ChatGPT in education: global reactions to AI innovations](https://www.nature.com/articles/s41598-023-42227-6)
-- [ChatGPT in education: Methods, potentials, and limitations](https://www.sciencedirect.com/science/article/pii/S2949882123000221)
+## Academic concerns and mitigation strategies
 
 > The use of AI in higher education, specifically in mathematics, has been evolving and expanding, offering various innovative approaches to teaching, learning, and research. Here's a rundown of some of the key uses and benefits:
 > 
@@ -197,11 +192,22 @@ Generative AI can be wrong, and very confidently so!
 > — *ChatGPT 4*
 
 
-## Mitigation strategies
+- [ChatGPT and Assessments in the Mathematical Sciences](http://talmo.uk/blog/feb2023/chatgpt.html)
+- [ChatGPT in Computing Education](https://www.mmu.ac.uk/sites/default/files/2023-12/ChatGPTComputingEducationWhitePaper.pdf)
+- [ChatGPT in education: global reactions to AI innovations](https://www.nature.com/articles/s41598-023-42227-6)
+- [ChatGPT in education: Methods, potentials, and limitations](https://www.sciencedirect.com/science/article/pii/S2949882123000221)
+- [Artificial Intelligence  - Staff Guidance, *Coventry University*](https://teach.coventry.domains/articles/artificial-intelligence-staff-guidance/)
 
-- *TBA*
+> In the shorter term, we encourage staff tooffer students opportunities to learn how AI tools work, to openly discuss and debate the ethics of AI, the current strengths, and limitations of the technology, and if AI tools can be used appropriately, i.e., effectively, ethically, and transparently in relation to their assessments.
+> — *Coventry University*
 
+- [AI & Academic Misconduct](https://teach.coventry.domains/articles/ai-academic-misconduct/)
+- [Maintaining quality and standards in the ChatGPT era: QAA advice on the opportunities and challenges posed by Generative Artificial Intelligence](https://www.qaa.ac.uk/docs/qaa/members/maintaining-quality-and-standards-in-the-chatgpt-era.pdf)
 
+- [ChatGPT and artificial intelligence in higher education: quick start guide, *UNESCO*](https://unesdoc.unesco.org/ark:/48223/pf0000385146)
+
+*When is it safe to use ChatGPT? (UNESCO)*
+![](images/AI-tools-decision-making-guide.png)
 
 
 ## Ethics
