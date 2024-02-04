@@ -115,7 +115,7 @@ flowchart LR
 
 
 
-## Capability
+### Capability
 
 Generative AI can be quite good at certain tasks!
 
@@ -135,7 +135,7 @@ Generative AI can be quite good at certain tasks!
 ![](images/firefox_UKJO2yzVox.png)
 
 
-## Hallucination
+### Hallucination
 
 Generative AI can be wrong, and very confidently so!
 
@@ -148,7 +148,7 @@ Generative AI can be wrong, and very confidently so!
 ![](images/20240129214325.png)
 
 
-## Prompt engineering
+### Prompt engineering
 
 > Prompt engineering is creating inputs for AI to get better outputs. It's important for accurate, efficient, and ethical AI responses. — *ChatGPT 4*
 
@@ -157,7 +157,7 @@ Generative AI can be wrong, and very confidently so!
 - [AI Prompt Vault](https://lunarmimi.net/ref-vault/)
 
 
-## Identifying AI-generated content
+### Identifying AI-generated content
 
 - [How do Turnitin’s AI writing detection capabilities work?](https://www.turnitin.com/products/features/ai-writing-detection/)
 - [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier.
@@ -166,7 +166,7 @@ Generative AI can be wrong, and very confidently so!
 ![](images/sanic.jpg)
 
 
-## Academic concerns
+## Generative AI in higher education
 
 > The use of AI in higher education, specifically in mathematics, has been evolving and expanding, offering various innovative approaches to teaching, learning, and research. Here's a rundown of some of the key uses and benefits:
 > 
@@ -208,7 +208,11 @@ Generative AI can be wrong, and very confidently so!
 ![](images/AI-tools-decision-making-guide.png)
 
 
-## Mitigation strategies
+#### Learning and teaching integration
+
+- *TBA, let's discuss!*
+
+#### Re-designing assessment
 
 Possibilities:
 | Tactic  | Example | Effectiveness  | Ease-of-use   | Cost |
@@ -221,13 +225,10 @@ Possibilities:
 | AI writing detection  | Turnitin  | 🤬  | 🤬   | 🤬  |
 | ? | ? | ? | ? | ? |
 
-## Ethics
+## Ethics and further reading
 
 - [AI Content on Steam](https://steamcommunity.com/groups/steamworks/announcements/detail/3862463747997849619)
 - [Toxicity in ChatGPT: Analyzing Persona-assigned Language Models](https://arxiv.org/abs/2304.05335)
-
-
-## Further reading
 
 Repositories of notes on generative AI:
 - [AI Notes](https://github.com/swyxio/ai-notes/blob/main/README.md)
