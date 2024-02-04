@@ -117,8 +117,9 @@ flowchart LR
 
 ## Capability
 
-#### Data analysis
+Generative AI can be quite good at certain tasks!
 
+#### Data analysis
 *Analyzing an uploaded data set (Pearson and Lee, 1903) using Data Analyst, a custom version of ChatGPT.*
 ![](images/firefox_peMQeWhGD6.png)
 
@@ -134,24 +135,6 @@ flowchart LR
 ![](images/firefox_UKJO2yzVox.png)
 
 
-## Prompt engineering
-
-> Prompt engineering is creating inputs for AI to get better outputs. It's important for accurate, efficient, and ethical AI responses. — *ChatGPT 4*
-
-- [The DALL·E 2 Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book/)
-- [AI Prompt Vault](https://lunarmimi.net/ref-vault/)
-- [MathPrompter: Mathematical Reasoning using Large Language Models](https://arxiv.org/abs/2303.05398)
-
-
-## Identifying AI-generated content
-
-*Misrepresenting an AI-generated image.*
-![](images/sanic.jpg)
-
-- [How do Turnitin’s AI writing detection capabilities work?](https://www.turnitin.com/products/features/ai-writing-detection/)
-- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier.
-
-
 ## Hallucination
 
 Generative AI can be wrong, and very confidently so!
@@ -165,9 +148,25 @@ Generative AI can be wrong, and very confidently so!
 ![](images/20240129214325.png)
 
 
+## Prompt engineering
+
+> Prompt engineering is creating inputs for AI to get better outputs. It's important for accurate, efficient, and ethical AI responses. — *ChatGPT 4*
+
+- [MathPrompter: Mathematical Reasoning using Large Language Models](https://arxiv.org/abs/2303.05398)
+- [The DALL·E 2 Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book/)
+- [AI Prompt Vault](https://lunarmimi.net/ref-vault/)
 
 
-## Academic concerns and mitigation strategies
+## Identifying AI-generated content
+
+- [How do Turnitin’s AI writing detection capabilities work?](https://www.turnitin.com/products/features/ai-writing-detection/)
+- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text) - OpenAI's failed attempt at an AI classifier.
+
+*Misrepresenting an AI-generated image.*
+![](images/sanic.jpg)
+
+
+## Academic concerns
 
 > The use of AI in higher education, specifically in mathematics, has been evolving and expanding, offering various innovative approaches to teaching, learning, and research. Here's a rundown of some of the key uses and benefits:
 > 
@@ -191,7 +190,6 @@ Generative AI can be wrong, and very confidently so!
 > 
 > — *ChatGPT 4*
 
-
 - [ChatGPT and Assessments in the Mathematical Sciences](http://talmo.uk/blog/feb2023/chatgpt.html)
 - [ChatGPT in Computing Education](https://www.mmu.ac.uk/sites/default/files/2023-12/ChatGPTComputingEducationWhitePaper.pdf)
 - [ChatGPT in education: global reactions to AI innovations](https://www.nature.com/articles/s41598-023-42227-6)
@@ -209,6 +207,19 @@ Generative AI can be wrong, and very confidently so!
 *When is it safe to use ChatGPT? (UNESCO)*
 ![](images/AI-tools-decision-making-guide.png)
 
+
+## Mitigation strategies
+
+Possibilities:
+| Tactic  | Example | Effectiveness  | Ease-of-use   | Cost |
+|---|---|---|---|---|
+| Limiting access  | In-person assessments  | 😎  | 😎  | 🤔  |
+| Proof-of-ownership  | Completion milestones  | 🤔  | 😎  | 😎  |
+| Assessing AI literacy  | Grading emphasis on rigor/precision/explanation  | 🤔  | 😎  | 😎  |
+| Limiting access  | Safe Exam Browser  | 🤔  | 🤔  | 🤔  |
+| Obfuscation  | Writing un-AI-able questions  | 🤔  | 🤬  | 🤬  |
+| AI writing detection  | Turnitin  | 🤬  | 🤬   | 🤬  |
+| ? | ? | ? | ? | ? |
 
 ## Ethics
 
